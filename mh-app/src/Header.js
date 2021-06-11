@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-import SearchIcon from '@material-ui/icons/Search';
 import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/ForumOutlined';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
