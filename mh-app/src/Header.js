@@ -4,13 +4,14 @@ import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/ForumOutlined';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {Avatar, IconButton} from '@material-ui/core';
+import logo from './mh_logo.PNG'
 
 function Header() {
     return (
         <div className = 'header'>
             <div className = 'header__left'>
                 <img 
-                    src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIzQ7EFJn3ieAbyYylCNhAI1SxS6sVkTLerw&usqp=CAU'
+                    src = {logo}
                     alt = ''
                 />
             </div>
@@ -20,7 +21,7 @@ function Header() {
                     <h4>Home</h4>
                 </div>
                 <div className = 'header__option'>
-                    <h4>Abouts</h4>
+                    <h4>About</h4>
                 </div>
                 <div className = 'header__option'>
                     <h4>Resources</h4>

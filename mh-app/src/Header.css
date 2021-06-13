@@ -3,9 +3,11 @@
     padding: 15px 20px;
     justify-content: space-between;
     position: sticky;
-    background-color: white;
+    background-color:  #504747;
+    color: white;
     z-index: 0;
     box-shadow: 0px 5px 8px -9px rgb(0, 0, 0, 0.75);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header__left {
@@ -15,6 +17,7 @@
 
 .header__left > img {
     height: 100px;
+    border-radius: 60px;
 }
 
 .header__center {
@@ -35,7 +38,7 @@
 }
 
 .header__option:hover  {
-    background-color: #eff2f5;
+    background-color: white;
     border-radius: 10px;
     align-items: center;
     padding: 0 30px;
@@ -53,4 +56,9 @@
 
 .header__right {
     display: flex;
+}
+
+h4 {
+    font-size: 25px;
+
 }
