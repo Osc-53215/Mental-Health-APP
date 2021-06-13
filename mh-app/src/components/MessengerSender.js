@@ -9,6 +9,13 @@ function MessengerButton() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+
+
+        //allows us to reset state and update the form
+        
+        setInput('')
+        setImageUrl('')
     };
 
     return (
