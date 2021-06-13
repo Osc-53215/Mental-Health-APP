@@ -1,6 +1,6 @@
 import React from 'react';
 import './MessengerSender.css';
-import Avatar from '@material-ui/core';
+
 
 function MessengerButton() {
 
@@ -13,7 +13,7 @@ function MessengerButton() {
             <div className = 'messageSender__top'>
                 
                 <form>
-                    <input type = 'text' placeholder = {`What's on your mind`}/>
+                    <input type = 'text' className = 'messageSender__input' placeholder = {`What's on your mind`}/>
                     <input type = 'text' placeholder = 'image URL (Optional)'/>
 
                     <button onClick = {handleSubmit} type = 'submit'>Hidden submit</button>
