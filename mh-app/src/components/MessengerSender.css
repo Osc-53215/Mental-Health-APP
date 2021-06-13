@@ -25,6 +25,8 @@
     margin: 0 10px;
     border-radius: 999px;
     background-color: #504747;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .messageSender__top > form > button{
