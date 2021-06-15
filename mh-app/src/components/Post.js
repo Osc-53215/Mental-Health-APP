@@ -3,7 +3,9 @@ import './Post.css'
 import { Avatar } from '@material-ui/core'
 import EmojiEmotionsTwoToneIcon from '@material-ui/icons/EmojiEmotionsTwoTone';
 import SentimentDissatisfiedTwoToneIcon from '@material-ui/icons/SentimentDissatisfiedTwoTone';
-import ChatBubbleTwoToneIcon from '@material-ui/icons/ChatBubbleTwoTone';function Post({profilePic, username, image, timestamp, message}) {
+import ChatBubbleTwoToneIcon from '@material-ui/icons/ChatBubbleTwoTone';
+
+function Post({profilePic, username, image, timestamp, message}) {
     return (
         <div className = 'post'>
             <div className = 'post__top'>
@@ -11,7 +13,7 @@ import ChatBubbleTwoToneIcon from '@material-ui/icons/ChatBubbleTwoTone';functio
                 className = 'post__avatar'/>
                 <div className = 'post__topInfo'>
                     <h3>{username}</h3>
-                    <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
+                    <p>Timestamp</p>
                 </div>
             </div>
             <div className = 'post__bottom'>
