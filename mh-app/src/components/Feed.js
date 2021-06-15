@@ -25,6 +25,7 @@ function Feed() {
             timestamp = 'this is a timestamp'
             username = 'Elizandra Sandoval'
             />
+
     
         </div>
     </>

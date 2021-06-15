@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Feed from './components/Feed';
+import Widgets from './components/Widgets'
 
 
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <div className = 'app__body'>
         <Feed />
+        <Widgets />
         
       </div>
     </div>
