@@ -6,6 +6,12 @@ import SentimentDissatisfiedTwoToneIcon from '@material-ui/icons/SentimentDissat
 import ChatBubbleTwoToneIcon from '@material-ui/icons/ChatBubbleTwoTone';
 
 function Post({profilePic, username, image, timestamp, message}) {
+    const date = Date.now();
+    const formatDate = (date) => {
+        const options = { year: "numeric", month: "long", day: "numeric" }
+        return new Date(date).toLocaleDateString(undefined, options)
+      }
+
     return (
         <div className = 'post'>
             <div className = 'post__top'>
@@ -13,7 +19,7 @@ function Post({profilePic, username, image, timestamp, message}) {
                 className = 'post__avatar'/>
                 <div className = 'post__topInfo'>
                     <h3>{username}</h3>
-                    <p>Timestamp</p>
+                <p>{formatDate(date)}</p>
                 </div>
             </div>
             <div className = 'post__bottom'>
