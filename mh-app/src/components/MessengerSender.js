@@ -37,8 +37,8 @@ function MessengerButton() {
 
                     <button onClick = {handleSubmit} type = 'submit'>Hidden submit</button>
                 </form>
-
             </div>
+            
         </div>
     )
 }
