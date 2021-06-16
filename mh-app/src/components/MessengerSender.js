@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './MessengerSender.css';
+import db from './firebase';
+import firebase from 'firebase';
 
 
 function MessengerButton() {
@@ -10,9 +12,12 @@ function MessengerButton() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+        db.collection('posts').add({
+            message: input,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            image: imageUrl,
+        })
 
-
-        //allows us to reset state and update the form
         
         setInput('')
         setImageUrl('')
