@@ -1,13 +1,15 @@
-import React from 'react'
-import './Header.css'
+import React from 'react';
+import './Header.css';
 import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/ForumOutlined';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {Avatar, IconButton} from '@material-ui/core';
-import logo from './mh_logo.PNG'
+import logo from './mh_logo.PNG';
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
+    <nav>
         <div className = 'header'>
             <div className = 'header__left'>
                 <img 
@@ -18,10 +20,10 @@ function Header() {
 
             <div className = 'header__center'>
                 <div className = 'header__option'>
-                    <h4>Home</h4>
+                    <Link to = '/' className='text-link'><h4>Home</h4></Link>
                 </div>
                 <div className = 'header__option'>
-                    <h4>About</h4>
+                    <Link to = '/abouts' className='text-link'><h4>Abouts</h4></Link>
                 </div>
                 <div className = 'header__option'>
                     <h4>Resources</h4>
@@ -50,6 +52,7 @@ function Header() {
                 </IconButton>
             </div>  
         </div>
+    </nav>
     )
 }
 

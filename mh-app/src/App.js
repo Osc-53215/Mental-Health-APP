@@ -5,8 +5,7 @@ import Widgets from './components/Widgets';
 import Abouts from './components/Abouts';
 import Resources from './components/Resources';
 import Donations from './components/Donations';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import { Switch, Route } from "react-router-dom";
 
 
 function App() {

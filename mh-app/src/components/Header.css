@@ -37,6 +37,15 @@
     cursor: pointer;
 }
 
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+
+
+
 .header__option:hover  {
     background-color: white;
     border-radius: 10px;
