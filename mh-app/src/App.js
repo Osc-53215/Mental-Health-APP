@@ -1,20 +1,26 @@
 import './App.css';
 import Header from './components/Header';
 import Feed from './components/Feed';
-import Widgets from './components/Widgets'
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Widgets from './components/Widgets';
+import Abouts from './components/Abouts';
+import Resources from './components/Resources';
+import Donations from './components/Donations';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Router>
           <Switch>
-            <Route path="/" exact className="app"> 
+            <Route path="/" exact> 
               <Header />
-              <Feed className = 'app__body'/>
-              <Widgets className = 'app__body'/>
+                <div className = 'app__body'>
+                  <Feed />
+                  <Widgets />
+                </div>
+              
             </Route >
             <Route path="/abouts">
               <Abouts />
