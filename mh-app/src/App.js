@@ -19,9 +19,24 @@ function App() {
                   <Widgets />
                 </div>
             </Route >
-            <Route path="/abouts"  component= {Header} component = {Abouts}/>
-            <Route path="/resources" component = {Resources}/>
-            <Route path="/donations" component = {Donations}/>
+            <Route path="/abouts" exact> 
+              <Header />
+                <div className = 'app__body'>
+                  <Abouts />
+                </div>
+            </Route >
+            <Route path="/resources" exact> 
+              <Header />
+                <div className = 'app__body'>
+                  <Resources />
+                </div>
+            </Route >
+            <Route path="/donations" exact> 
+              <Header />
+                <div className = 'app__body'>
+                  <Donations />
+                </div>
+            </Route >
           </Switch>
     </div>
   );

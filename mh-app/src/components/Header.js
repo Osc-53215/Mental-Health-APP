@@ -1,11 +1,9 @@
 import React from 'react';
 import './Header.css';
-import AddIcon from '@material-ui/icons/Add';
-import ForumIcon from '@material-ui/icons/ForumOutlined';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import HighlightOffTwoToneIcon from '@material-ui/icons/HighlightOffTwoTone';import ForumIcon from '@material-ui/icons/ForumOutlined';
 import {Avatar, IconButton} from '@material-ui/core';
 import logo from './mh_logo.PNG';
-import { Link } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
 
 function Header() {
     return (
@@ -26,10 +24,10 @@ function Header() {
                     <Link to = '/abouts' className='text-link'><h4>Abouts</h4></Link>
                 </div>
                 <div className = 'header__option'>
-                    <h4>Resources</h4>
+                    <Link to = '/resources' className='text-link'><h4>Resources</h4></Link>
                 </div>
                 <div className = 'header__option'>
-                    <h4>Donations</h4>
+                    <Link to = '/donations' className='text-link'><h4>Donations</h4></Link>
                 </div>
 
             </div>
@@ -42,13 +40,13 @@ function Header() {
                 </div>
 
                 <IconButton>
-                    <AddIcon/>
-                </IconButton>
-                <IconButton>
                     <ForumIcon/>
                 </IconButton>
                 <IconButton>
-                    <ExpandMoreIcon/>
+                 <HighlightOffTwoToneIcon/>
+                    
+                    <Link to={{ pathname: "https://google.com" }} target="_blank" style = {{textDecoration: 'none', color: 'inherit'}}><p>Exit here</p></Link>
+
                 </IconButton>
             </div>  
         </div>
