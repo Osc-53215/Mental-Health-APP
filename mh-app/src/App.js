@@ -19,7 +19,7 @@ function App() {
                   <Widgets />
                 </div>
             </Route >
-            <Route path="/abouts" component = {Abouts}/>
+            <Route path="/abouts"  component= {Header} component = {Abouts}/>
             <Route path="/resources" component = {Resources}/>
             <Route path="/donations" component = {Donations}/>
           </Switch>
