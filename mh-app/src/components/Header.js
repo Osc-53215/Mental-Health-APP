@@ -27,7 +27,7 @@ function Header() {
                     <Link to = '/resources' className='text-link'><h4>Resources</h4></Link>
                 </div>
                 <div className = 'header__option'>
-                    <Link to = '/donations' className='text-link'><h4>Donations</h4></Link>
+                    <Link to = '/inforgraphics' className='text-link'><h4>Infographics</h4></Link>
                 </div>
 
             </div>

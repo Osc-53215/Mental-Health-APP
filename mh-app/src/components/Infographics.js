@@ -1,7 +1,7 @@
 import React from 'react'
-import './Donations.css'
+import './Infographics.css'
 
-function Donations() {
+function Infographics() {
     return (
         <div>
             
@@ -9,4 +9,4 @@ function Donations() {
     )
 }
 
-export default Donations
+export default Infographics

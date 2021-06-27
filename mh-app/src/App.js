@@ -4,7 +4,7 @@ import Feed from './components/Feed';
 import Widgets from './components/Widgets';
 import Abouts from './components/Abouts';
 import Resources from './components/Resources';
-import Donations from './components/Donations';
+import Infographics from './components/Infographics';
 import { Switch, Route } from "react-router-dom";
 
 
@@ -35,7 +35,7 @@ function App() {
             <Route path="/donations" exact> 
               <Header />
                 <div className = 'app__body'>
-                  <Donations />
+                  <Infographics />
                 </div>
             </Route >
           </Switch>
