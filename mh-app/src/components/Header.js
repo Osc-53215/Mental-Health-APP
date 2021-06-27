@@ -45,7 +45,7 @@ function Header() {
                 <IconButton>
                  <HighlightOffTwoToneIcon/>
                     
-                    <Link to={{ pathname: "https://google.com" }} target="_blank" style = {{textDecoration: 'none', color: 'inherit'}}><p>Exit here</p></Link>
+                    <Link to={{ pathname: "https://google.com" }} target="_blank" style = {{textDecoration: 'none', color: 'greenyellow'}}><p>Quick exit here</p></Link>
 
                 </IconButton>
             </div>  

@@ -29,6 +29,7 @@ function App() {
               <Header />
                 <div className = 'app__body'>
                   <Resources />
+                  <Widgets />
                 </div>
             </Route >
             <Route path="/donations" exact> 
