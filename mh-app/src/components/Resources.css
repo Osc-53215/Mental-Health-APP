@@ -8,26 +8,11 @@
     height: 100vh;
 }
 
-.post__top {
-    display: flex;
-    position: relative;
-    align-items: center;
-    padding: 15px;
-}
-
-
-
-.post__topInfo  > h3 {
-    font-size: medium;
-}
-
-.post__topInfo  > p {
-    font-size: small;
-    color: gray;
-}
-
-.post__image  > img {
-    width: 100%;
+.post__image {
+    height: 80%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
