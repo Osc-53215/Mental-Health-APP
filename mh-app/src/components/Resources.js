@@ -8,8 +8,7 @@ import image5 from  './photos/image_5.png';
 import image6 from  './photos/image_6.png';
 import image7 from  './photos/image_7.png';
 import image8 from  './photos/image_8.png';
-import image9 from  './photos/image_9.png';
-import image10 from  './photos/image_10.png';
+
 
 
 function Resources() {
@@ -24,8 +23,7 @@ function Resources() {
         <img className = 'post__image' src = {image6} alt = ''/>
         <img className = 'post__image' src = {image7} alt = ''/>
         <img className = 'post__image' src = {image8} alt = ''/>
-        <img className = 'post__image' src = {image9} alt = ''/>
-        <img className = 'post__image' src = {image10} alt = ''/>
+
     </div>
     )
 }
