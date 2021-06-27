@@ -1,7 +1,5 @@
-import React from 'react';
-import './Resources.css';
-import {useState} from 'react';
-import {Document, Page} from 'react-pdf';
+import React from 'react'
+import './Resources.css'
 
 
 function Resources() {
