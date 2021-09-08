@@ -29,7 +29,7 @@ function Feed() {
                image = {post.data.image}
                />
                
-             ))}
+            ))}
 
         </div>
     )

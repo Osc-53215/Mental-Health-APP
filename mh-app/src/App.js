@@ -32,7 +32,7 @@ function App() {
                   <Widgets />
                 </div>
             </Route >
-            <Route path="/donations" exact> 
+            <Route path="/inforgraphics" exact> 
               <Header />
                 <div className = 'app__body'>
                   <Infographics />
