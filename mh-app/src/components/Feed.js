@@ -18,7 +18,6 @@ function Feed() {
         <div className = 'feed'>
             <MessengerSender />
 
-            
             {posts.map((post) => (
                <Post
                key = {post.id}

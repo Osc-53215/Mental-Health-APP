@@ -17,7 +17,6 @@ function MessengerButton() {
             timestamp: firebase.firestore.FieldValue.serverTimestamp(),
             image: imageUrl,
         })
-
         
         setInput('')
         setImageUrl('')
