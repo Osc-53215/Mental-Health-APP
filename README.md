@@ -10,6 +10,6 @@ The application will consist of :
 5. If time allows it attempt the messaging application and tie it into another link on the main application where students can sign up to allow for messaging in groups or in a private setting
 6. A donations page for mental health foundations
 
-Technologies: React.js, Node.js, HTML, CSS, REDUX, Firebase, Firebase Hooks
+Technologies: React.js, Node.js, HTML, CSS, REDUX, Firebase, Firebase Hooks     
 
 The WOW factor in this appication is the users experience finding comfort on campus when studying and feeling discouraged. This application will bring together all underrepresented students and hopefully create a better atmosphere through the years of studying. I want to be able to improve there lifestyle as students and bring out the best in them without feeling discouraged. I think if I implement the messaging feature this will really enlighten the user experience providing a private source for interacting with a Psychologist and giving them comfort in feeling "heard" on campus!
