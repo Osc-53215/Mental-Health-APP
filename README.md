@@ -3,7 +3,7 @@
 I'm making this application in close relation to my Girlfriend who is currently pursing her PhD in counseling psych. The audience for this application will be for underrepresented students in higher education. This application will not substitute actual psychological diagnosis instead provide resources to those students who feel underrepresented.
 
 The application will consist of :
-1. Main feed is going to be daily quotes used to encourage students.
+1. Main feed is going to be daily quotes used to encourage students.  
 2. Resources the students can use
 3. A donations page for mental health foundations
 4. About me page so my girlfriend can give a intro into who she is and what her plans are for her psychology career
